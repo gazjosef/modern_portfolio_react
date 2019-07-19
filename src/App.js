@@ -7,7 +7,8 @@ import "./scss/main.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div id="bg-img" className="App">
+      {/* <div className="overlay">Hello</div> */}
       <Header />
       <Home />
     </div>
