@@ -31,6 +31,7 @@ const Header = props => {
   //   });
   // }
   console.log("header.js render called", props);
+
   return (
     <header>
       <div className="menu-btn" onClick={props.toggleMenu}>
