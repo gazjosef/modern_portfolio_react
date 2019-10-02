@@ -1,22 +1,30 @@
 import React, { Component } from "react";
 
-import Header from "./Header/Header";
-import Home from "./Home/Home";
+// import Header from "./Components/Layout/Header/Header";
+import Header2 from "./Components/Layout/Header/Header2";
+import Home from "./Components/Pages/Home/Home";
 
 import "./scss/main.scss";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      showMenu: false
-    };
-  }
+  state = {
+    showMenu: false
+  };
+
   toggleMenu = e => {
     console.log("clicked");
-    // this.setState(state => ({
-    //   showMenu: true
-    // }));
+
+    if (!this.state.menuButton) {
+      this.setState(state => ({
+        menuButton: true
+      }));
+      console.log("true");
+    } else {
+      this.setState(state => ({
+        menuButton: false
+      }));
+      console.log("false");
+    }
   };
 
   render() {
@@ -24,11 +32,10 @@ class App extends Component {
       <div id="bg-img" className="App">
         <div
           className="overlay"
-          // style={{ backgroundColor: "rgba(68, 68, 68, 0.5)" }}
-        >
-          <Header toggleMenu={this.toggleMenu} />
-          <Home />
-        </div>
+          // style={{ zIndex: -1 }}
+        ></div>
+        <Header2 />
+        <Home />
       </div>
     );
   }

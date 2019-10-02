@@ -8,9 +8,6 @@ import React from "react";
 // const navItems = document.querySelectorAll(".nav-item");
 
 const Header = props => {
-  // menuBtn.addEventListener("click", toggleMenu());
-  // toggleMenu = e => {
-  //   console.log("clicked");
   // if (!this.state.showMenu) {
   //   menuBtn.classList.add("close");
   //   menu.classList.add("show");
@@ -32,9 +29,16 @@ const Header = props => {
   // }
   console.log("header.js render called", props);
 
+  const toggleMenu2 = e => {
+    console.log("clicked");
+    // this.setState(state => ({
+    //   showMenu: true
+    // }));
+  };
+
   return (
     <header>
-      <div className="menu-btn" onClick={props.toggleMenu}>
+      <div className="menu-btn" onClick={toggleMenu2}>
         <div className="btn-line" />
         <div className="btn-line" />
         <div className="btn-line" />
