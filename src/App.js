@@ -30,10 +30,6 @@ class App extends Component {
   render() {
     return (
       <div id="bg-img" className="App">
-        <div
-          className="overlay"
-          // style={{ zIndex: -1 }}
-        ></div>
         <Header2 />
         <Home />
       </div>
