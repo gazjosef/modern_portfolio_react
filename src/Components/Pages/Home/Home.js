@@ -9,18 +9,14 @@ function Home() {
       </h1>
       <h2 className="sm-heading">Web Developer, Programmer, and Designer.</h2>
       <div className="icons">
-        <a href="#">
-          <i className="fas fa-twitter-square fa-2x" />
-        </a>
-        <a href="#!">
-          <i className="fas fa-facebook-square fa-2x" />
-        </a>
-        <a href="#!">
-          <i className="fas fa-linkedin-square fa-2x" />
-        </a>
-        <a href="#!">
-          <i className="fas fa-github-square fa-2x" />
-        </a>
+        <h2 className="sm-heading">
+          <a href="https://github.com/gazjosef">
+            <i className="fas fa-square fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/gareth-hind-a32448191/">
+            <i className="fas fa-lightbulb fa-2x"></i>
+          </a>
+        </h2>
       </div>
       <h2 className="sm-heading">
         <Link to="/work" style={{ textDecoration: "none" }}>
