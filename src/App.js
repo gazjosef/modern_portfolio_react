@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-// import Header from "./Components/Layout/Header/Header";
-import Header2 from "./Components/Layout/Header/Header2";
+import Header from "./Components/Layout/Header/Header";
 import Home from "./Components/Pages/Home/Home";
 
 import "./scss/main.scss";
@@ -30,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div id="bg-img" className="App">
-        <Header2 />
+        <Header />
         <Home />
       </div>
     );

@@ -1,78 +1,76 @@
-import React from "react";
+import React, { Component } from "react";
 
-// Select DOM Items
-// const menuBtn = document.querySelector(".menu-btn");
-// const menu = document.querySelector(".menu");
-// const menuNav = document.querySelector(".menu-nav");
-// const menuBranding = document.querySelector(".menu-branding");
-// const navItems = document.querySelectorAll(".nav-item");
-
-const Header = props => {
-  // if (!this.state.showMenu) {
-  //   menuBtn.classList.add("close");
-  //   menu.classList.add("show");
-  //   menuNav.classList.add("show");
-  //   menuBranding.classList.add("show");
-  //   navItems.forEach(item => item.classList.add("show"));
-  //   this.setState({
-  //     showMenu: true
-  //   });
-  // } else {
-  //   menuBtn.classList.remove("close");
-  //   menu.classList.remove("show");
-  //   menuNav.classList.remove("show");
-  //   menuBranding.classList.remove("show");
-  //   navItems.forEach(item => item.classList.add("show"));
-  //   this.setState({
-  //     showMenu: false
-  //   });
-  // }
-  console.log("header.js render called", props);
-
-  const toggleMenu2 = e => {
-    console.log("clicked");
-    // this.setState(state => ({
-    //   showMenu: true
-    // }));
+class Header extends Component {
+  state = {
+    menuButton: false
   };
 
-  return (
-    <header>
-      <div className="menu-btn" onClick={toggleMenu2}>
-        <div className="btn-line" />
-        <div className="btn-line" />
-        <div className="btn-line" />
-      </div>
+  toggleMenu2 = e => {
+    console.log("clicked");
 
-      <nav className="menu">
-        <div className="menu-branding">
-          <div className="portrait" />
+    if (!this.state.menuButton) {
+      this.setState(state => ({
+        menuButton: true
+      }));
+      console.log("true");
+    } else {
+      this.setState(state => ({
+        menuButton: false
+      }));
+      console.log("false");
+    }
+  };
+
+  addShow = () => {
+    return this.state.menuButton === true ? "show" : "";
+  };
+
+  addClose = () => {
+    return this.state.menuButton === true ? "" : "close";
+  };
+
+  render() {
+    return (
+      <header>
+        <div
+          className={`menu-btn ${this.addClose()}`}
+          onClick={this.toggleMenu2}
+        >
+          <div className="btn-line" />
+          <div className="btn-line" />
+          <div className="btn-line" />
         </div>
-        <ul className="menu-nav">
-          <li className="nav-item">
-            <a href="/home.html" className="nav-link">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/about.html" className="nav-link">
-              About Me
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/work.html" className="nav-link">
-              My Work
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/contact.html" className="nav-link">
-              How To Reach Me
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
+
+        <nav className={`menu ${this.addShow()}`}>
+          <div className={`menu-branding ${this.addShow()}`}>
+            <div className="portrait" />
+          </div>
+          <ul className={`menu-nav ${this.addShow()}`}>
+            <li className={`nav-item current ${this.addShow()}`}>
+              <a href="/home.html" className="nav-link">
+                Home
+              </a>
+            </li>
+            <li className={`nav-item ${this.addShow()}`}>
+              <a href="/about.html" className="nav-link">
+                About Me
+              </a>
+            </li>
+            <li className={`nav-item ${this.addShow()}`}>
+              <a href="/work.html" className="nav-link">
+                My Work
+              </a>
+            </li>
+            <li className={`nav-item ${this.addShow()}`}>
+              <a href="/contact.html" className="nav-link">
+                How To Reach Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    );
+  }
+}
 
 export default Header;
