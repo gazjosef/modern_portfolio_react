@@ -5,7 +5,7 @@ function Home() {
   return (
     <main id="home">
       <h1 className="lg-heading">
-        Gareth <span className="text-secondary">Hind</span>
+        Gareth <span className="text-secondary-color">Hind</span>
       </h1>
       <h2 className="sm-heading">Web Developer, Programmer, and Designer.</h2>
       <div className="icons">
@@ -18,7 +18,7 @@ function Home() {
           </a>
         </h2>
       </div>
-      <button className="btn btn-info">
+      <button className="btn btn-warning">
         <Link to="/work" style={{ textDecoration: "none" }}>
           Click To See My Work
         </Link>
