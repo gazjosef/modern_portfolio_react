@@ -11,18 +11,18 @@ function Home() {
       <div className="icons">
         <h2 className="sm-heading">
           <a href="https://github.com/gazjosef">
-            <i className="fas fa-square fa-2x"></i>
+            <i className="fab fa-github-square fa-2x"></i>
           </a>
           <a href="https://www.linkedin.com/in/gareth-hind-a32448191/">
-            <i className="fas fa-lightbulb fa-2x"></i>
+            <i className="fab fa-linkedin fa-2x"></i>
           </a>
         </h2>
       </div>
-      <h2 className="sm-heading">
+      <button className="btn btn-info">
         <Link to="/work" style={{ textDecoration: "none" }}>
           Click To See My Work
         </Link>
-      </h2>
+      </button>
     </main>
   );
 }
