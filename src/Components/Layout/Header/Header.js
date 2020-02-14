@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   state = {
@@ -47,24 +48,36 @@ class Header extends Component {
           </div>
           <ul className={`menu-nav ${this.addShow()}`}>
             <li className={`nav-item current ${this.addShow()}`}>
-              <a href="/home.html" className="nav-link">
+              {/* <a href="/home.html" className="nav-link">
                 Home
-              </a>
+              </a> */}
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Home
+              </Link>
             </li>
             <li className={`nav-item ${this.addShow()}`}>
-              <a href="/about.html" className="nav-link">
+              {/* <a href="/about.html" className="nav-link">
                 About Me
-              </a>
+              </a> */}
+              <Link to="/about" style={{ textDecoration: "none" }}>
+                About
+              </Link>
             </li>
             <li className={`nav-item ${this.addShow()}`}>
-              <a href="/work.html" className="nav-link">
+              {/* <a href="/work.html" className="nav-link">
                 My Work
-              </a>
+              </a> */}
+              <Link to="/work" style={{ textDecoration: "none" }}>
+                Work
+              </Link>
             </li>
             <li className={`nav-item ${this.addShow()}`}>
-              <a href="/contact.html" className="nav-link">
+              {/* <a href="/contact.html" className="nav-link">
                 How To Reach Me
-              </a>
+              </a> */}
+              <Link to="/contact" style={{ textDecoration: "none" }}>
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

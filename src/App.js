@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from "./Components/Layout/Header/Header";
 import Home from "./Components/Pages/Home/Home";
+import About from "./Components/Pages/About/About";
 
 import "./scss/main.scss";
 
@@ -28,10 +30,15 @@ class App extends Component {
 
   render() {
     return (
-      <div id="bg-img" className="App">
-        <Header />
-        <Home />
-      </div>
+      <Router>
+        <div id="bg-img" className="App">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
