@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -8,19 +9,24 @@ function Home() {
       </h1>
       <h2 className="sm-heading">Web Developer, Programmer, and Designer.</h2>
       <div className="icons">
-        <a href="#!">
-          <i className="fa fa-twitter-square fa-2x" />
+        <a href="#">
+          <i className="fas fa-twitter-square fa-2x" />
         </a>
         <a href="#!">
-          <i className="fa fa-facebook-square fa-2x" />
+          <i className="fas fa-facebook-square fa-2x" />
         </a>
         <a href="#!">
-          <i className="fa fa-linkedin-square fa-2x" />
+          <i className="fas fa-linkedin-square fa-2x" />
         </a>
         <a href="#!">
-          <i className="fa fa-github-square fa-2x" />
+          <i className="fas fa-github-square fa-2x" />
         </a>
       </div>
+      <h2 className="sm-heading">
+        <Link to="/work" style={{ textDecoration: "none" }}>
+          Click To See My Work
+        </Link>
+      </h2>
     </main>
   );
 }

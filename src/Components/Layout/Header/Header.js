@@ -48,26 +48,29 @@ class Header extends Component {
           </div>
           <ul className={`menu-nav ${this.addShow()}`}>
             <li className={`nav-item current ${this.addShow()}`}>
-              {/* <a href="/home.html" className="nav-link">
-                Home
-              </a> */}
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link
+                to="/"
+                className={`nav-link`}
+                style={{ textDecoration: "none" }}
+              >
                 Home
               </Link>
             </li>
             <li className={`nav-item ${this.addShow()}`}>
-              {/* <a href="/about.html" className="nav-link">
-                About Me
-              </a> */}
-              <Link to="/about" style={{ textDecoration: "none" }}>
+              <Link
+                to="/about"
+                className={`nav-link`}
+                style={{ textDecoration: "none" }}
+              >
                 About
               </Link>
             </li>
             <li className={`nav-item ${this.addShow()}`}>
-              {/* <a href="/work.html" className="nav-link">
-                My Work
-              </a> */}
-              <Link to="/work" style={{ textDecoration: "none" }}>
+              <Link
+                to="/work"
+                className={`nav-link`}
+                style={{ textDecoration: "none" }}
+              >
                 Work
               </Link>
             </li>
