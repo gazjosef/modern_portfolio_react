@@ -71,14 +71,6 @@ class Header extends Component {
                 Work
               </Link>
             </li>
-            <li className={`nav-item ${this.addShow()}`}>
-              {/* <a href="/contact.html" className="nav-link">
-                How To Reach Me
-              </a> */}
-              <Link to="/contact" style={{ textDecoration: "none" }}>
-                Contact
-              </Link>
-            </li>
           </ul>
         </nav>
       </header>

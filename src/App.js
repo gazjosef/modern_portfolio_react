@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Components/Layout/Header/Header";
 import Home from "./Components/Pages/Home/Home";
 import About from "./Components/Pages/About/About";
+import Work from "./Components/Pages/Work/Work";
 
 import "./scss/main.scss";
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/work" component={Work} />
           </Switch>
         </div>
       </Router>
