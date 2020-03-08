@@ -2,7 +2,7 @@
   "name": "modern-portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gazjosef.github.io/modern-portfolio-react",
+  "homepage": "https://gazjosef.github.io/modern_portfolio_react",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
