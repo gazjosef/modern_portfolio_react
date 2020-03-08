@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/modern-portfolio-react/static/css/main.8f4d138a.chunk.css",
-    "main.js": "/modern-portfolio-react/static/js/main.9ddadb4e.chunk.js",
-    "main.js.map": "/modern-portfolio-react/static/js/main.9ddadb4e.chunk.js.map",
-    "runtime-main.js": "/modern-portfolio-react/static/js/runtime-main.318f1d3b.js",
-    "runtime-main.js.map": "/modern-portfolio-react/static/js/runtime-main.318f1d3b.js.map",
-    "static/js/2.ba9c762d.chunk.js": "/modern-portfolio-react/static/js/2.ba9c762d.chunk.js",
-    "static/js/2.ba9c762d.chunk.js.map": "/modern-portfolio-react/static/js/2.ba9c762d.chunk.js.map",
-    "index.html": "/modern-portfolio-react/index.html",
-    "precache-manifest.e83aec1b71b1eaf3034fd5a5a69c0943.js": "/modern-portfolio-react/precache-manifest.e83aec1b71b1eaf3034fd5a5a69c0943.js",
-    "service-worker.js": "/modern-portfolio-react/service-worker.js",
-    "static/css/main.8f4d138a.chunk.css.map": "/modern-portfolio-react/static/css/main.8f4d138a.chunk.css.map",
-    "static/js/2.ba9c762d.chunk.js.LICENSE.txt": "/modern-portfolio-react/static/js/2.ba9c762d.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/modern-portfolio-react/static/media/portrait_small.31ad0b4d.jpg"
+    "main.css": "/modern_portfolio_react/static/css/main.3c26584f.chunk.css",
+    "main.js": "/modern_portfolio_react/static/js/main.9ddadb4e.chunk.js",
+    "main.js.map": "/modern_portfolio_react/static/js/main.9ddadb4e.chunk.js.map",
+    "runtime-main.js": "/modern_portfolio_react/static/js/runtime-main.3ccacd64.js",
+    "runtime-main.js.map": "/modern_portfolio_react/static/js/runtime-main.3ccacd64.js.map",
+    "static/js/2.ba9c762d.chunk.js": "/modern_portfolio_react/static/js/2.ba9c762d.chunk.js",
+    "static/js/2.ba9c762d.chunk.js.map": "/modern_portfolio_react/static/js/2.ba9c762d.chunk.js.map",
+    "index.html": "/modern_portfolio_react/index.html",
+    "precache-manifest.07654319e6403922accebed477c13634.js": "/modern_portfolio_react/precache-manifest.07654319e6403922accebed477c13634.js",
+    "service-worker.js": "/modern_portfolio_react/service-worker.js",
+    "static/css/main.3c26584f.chunk.css.map": "/modern_portfolio_react/static/css/main.3c26584f.chunk.css.map",
+    "static/js/2.ba9c762d.chunk.js.LICENSE.txt": "/modern_portfolio_react/static/js/2.ba9c762d.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/modern_portfolio_react/static/media/portrait_small.31ad0b4d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.318f1d3b.js",
+    "static/js/runtime-main.3ccacd64.js",
     "static/js/2.ba9c762d.chunk.js",
-    "static/css/main.8f4d138a.chunk.css",
+    "static/css/main.3c26584f.chunk.css",
     "static/js/main.9ddadb4e.chunk.js"
   ]
 }
