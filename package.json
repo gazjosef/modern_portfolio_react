@@ -1,27 +1,28 @@
 {
-  "name": "modern-portfolio-react",
+  "name": "react-sass",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gazjosef.github.io/modern_portfolio_react",
   "dependencies": {
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.1"
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "sass": "node-sass -w src/scss/ -o src/dist/css/ --recursive"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }

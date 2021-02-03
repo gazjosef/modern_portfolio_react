@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const Work = () => {
-  return (
-    <div>
-      <h1>Work</h1>
-    </div>
-  );
-};
-
-export default Work;
+export const Work = () => {
+    return (
+        <section className="section-work">
+            Work
+        </section>
+    )
+}
