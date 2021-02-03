@@ -1,4 +1,5 @@
 import './App.scss';
+import { Route, Switch } from 'react-router-dom';
 
 // Layout
 import { NavBar } from "./Components/Layout/NavBar/NavBar"
@@ -10,10 +11,14 @@ import { Contact } from "./Components/Pages/Contact/Contact"
 function App() {
   return (
     <div className="App">
+      
       <NavBar />
-      <Home />
-      <Work />
-      <Contact />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/work" component={Work} />
+        <Route exact path="/contact" component={Contact} />
+        <Route component={Error} />
+      </Switch>
     </div>
   );
 }
