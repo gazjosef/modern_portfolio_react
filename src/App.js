@@ -1,6 +1,8 @@
 import './App.scss';
 import { Route, Switch } from 'react-router-dom';
 
+// Components
+import { Header } from "./Components/Layout/Header/Header"
 // Layout
 import { NavBar } from "./Components/Layout/NavBar/NavBar"
 
@@ -11,7 +13,7 @@ import { Contact } from "./Components/Pages/Contact/Contact"
 function App() {
   return (
     <div className="App">
-      
+      <Header />
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
