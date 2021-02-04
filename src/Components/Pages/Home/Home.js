@@ -10,7 +10,7 @@ export const Home = () => {
             </div>
             <div className="row">
                 <div className="col-1-of-2">
-                    {/* <h3 className="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                    <h3 className="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
                     <p className="paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia quam quod facere commodi
                         minima quisquam. Nihil at quibusdam doloribus. Animi inventore provident exercitationem cumque
@@ -21,9 +21,9 @@ export const Home = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia quam quod facere commodi
                         minima quisquam.
                     </p>
-                    <a href="#" className="btn-text">Learn more &rarr;</a> */}
+                    {/* <a href="#" className="btn-text">Learn more &rarr;</a> */}
                 </div>
-
+                
                 <div className="col-1-of-2">
                     {/* <div className="composition">
                         <img src="img/nat-1-large.jpg" alt="Photo 1" className="composition__photo composition__photo--p1">
