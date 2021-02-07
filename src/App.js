@@ -1,8 +1,8 @@
 import './App.scss';
-import { Route, Switch } from 'react-router-dom';
+// import { Route, Switch } from 'react-router-dom';
 
 // Components
-import { Header } from "./Components/Layout/Header/Header"
+// import { Header } from "./Components/Layout/Header/Header"
 // Layout
 import { NavBar } from "./Components/Layout/NavBar/NavBar"
 
@@ -14,13 +14,16 @@ function App() {
   return (
     <div className="App">
       {/* <Header /> */}
+      <Home />
+      <Work />
+      <Contact />
       <NavBar />
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/contact" component={Contact} />
         <Route component={Error} />
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
