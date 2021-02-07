@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+// import image1 from "../../../Assets/img/projects/blackJack"
 
 export const Work = () => {
     return (

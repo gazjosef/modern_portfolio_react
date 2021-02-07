@@ -13,7 +13,7 @@ import { Contact } from "./Components/Pages/Contact/Contact"
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
