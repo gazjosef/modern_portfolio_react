@@ -23,6 +23,7 @@
             padding: 0.5rem 1rem;
             border: 0;
             margin-bottom: 0.3rem;
+            text-decoration: none;
 
             &:hover {
                 background: $color-secondary-light;
@@ -31,13 +32,13 @@
         }
 
         .btn-dark {
-            // @extend .btn;
+            @extend .btn;
             background: darken($color-grey-dark-3, 50);
             color: #FFF;
         }
 
         .btn-light {
-            // @extend .btn;
+            @extend .btn;
             background: lighten($color-grey-dark-3, 50);
             color: #333;    
         }

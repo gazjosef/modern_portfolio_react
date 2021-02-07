@@ -17,7 +17,7 @@ function App() {
       <Home />
       <Work />
       <Contact />
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={Work} />

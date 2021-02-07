@@ -20,7 +20,7 @@ export const Work = () => {
                             href="https://gazjosef.github.io/blackjack-game/"
                             className="btn-light"
                         >
-                            <i className="fas fa-eye"></i> BlackJack Project
+                            <i className="fas fa-eye"></i> BlackJack
                         </a>
                         <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                             <i className="fab fa-github"></i> Github
@@ -62,7 +62,7 @@ export const Work = () => {
                             <img src="img/projects/tippingApp.jpg" alt="Project" />
                         </a> */}
                         <a href="https://gazjosef.github.io/tipping-app/" className="btn-light">
-                            <i className="fas fa-eye"></i> Tipping App Project
+                            <i className="fas fa-eye"></i> Tipping App
                         </a>
                         <a href="https://github.com/gazjosef/tipping-app" className="btn-dark">
                             <i className="fab fa-github"></i> Github
@@ -77,7 +77,7 @@ export const Work = () => {
                             href="https://gazjosef.github.io/weather-app/"
                             className="btn-light"
                         >
-                            <i className="fas fa-eye"></i> Weather App Project
+                            <i className="fas fa-eye"></i> Weather App
                         </a>
                         <a href="https://github.com/gazjosef/weather-app" className="btn-dark">
                             <i className="fab fa-github"></i> Github
