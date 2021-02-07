@@ -13,7 +13,7 @@
             &:hover {
                 opacity: 0.5;
                 border-color: $color-secondary-light;
-                @include easeOut;
+                // @include easeOut;
             }
         }
 
@@ -31,14 +31,14 @@
         }
 
         .btn-dark {
-            @extend .btn;
-            background: darken($primary-color, 50);
+            // @extend .btn;
+            background: darken($color-grey-dark-3, 50);
             color: #FFF;
         }
 
         .btn-light {
-            @extend .btn;
-            background: lighten($primary-color, 50);
+            // @extend .btn;
+            background: lighten($color-grey-dark-3, 50);
             color: #333;    
         }
     }
