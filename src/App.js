@@ -3,8 +3,9 @@ import './App.scss';
 
 // Components
 // import { Header } from "./Components/Layout/Header/Header"
+
 // Layout
-import { NavBar } from "./Components/Layout/NavBar/NavBar"
+// import { NavBar } from "./Components/Layout/NavBar/NavBar"
 
 import { Home } from "./Components/Pages/Home/Home"
 import { Work } from "./Components/Pages/Work/Work"
