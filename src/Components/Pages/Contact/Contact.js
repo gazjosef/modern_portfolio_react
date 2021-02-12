@@ -11,7 +11,13 @@ export const Contact = () => {
             </div>
             <div className="row">
                 <div className="story">
-                    TEXT
+                    <figure className="story__shape">
+
+                    </figure>
+                    <div className="story__text">
+                        <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum tempore error tenetur est tempora consequatur iste aliquid nemo cum laboriosam.</p>
+                    </div>
                 </div>
             </div>
         </section>
