@@ -6,7 +6,7 @@ export const Contact = () => {
             
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
-                    We Make People Genuienly Happy
+                    Contact Me
                 </h2>
             </div>
             <div className="row">
