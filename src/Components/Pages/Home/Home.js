@@ -4,9 +4,12 @@ export const Home = () => {
     return (
         <section className="section-about">
             <div className="u-center-text u-margin-bottom-big">
-                <h2 className="heading-secondary">
-                    Gareth Hind | Web Designer, Developer & Programmer
-                </h2>
+                <span className="heading-primary--main">
+                    Gareth Hind
+                </span>
+                <span className="heading-primary--sub">
+                    Web Designer, Developer & Programmer
+                </span>
             </div>
             <div className="row">
                 <div className="about">
