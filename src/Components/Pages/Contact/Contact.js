@@ -15,8 +15,9 @@ export const Contact = () => {
 
                     </figure>
                     <div className="story__text">
-                        <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum tempore error tenetur est tempora consequatur iste aliquid nemo cum laboriosam.</p>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Email</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">LinkedIn</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">GitHub</h3>
                     </div>
                 </div>
             </div>
