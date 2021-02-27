@@ -67,6 +67,7 @@ export const Work = () => {
                         <img src={require("../../../Assets/img/img_snow.jpg").default} alt="Mountains" width="600" height="400" />
                     </a>
                     <div className="desc">
+                        <h3>Project #</h3>
                         <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
