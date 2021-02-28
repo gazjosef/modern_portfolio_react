@@ -19,7 +19,7 @@ export const Work = () => {
                         <img src={require("../../../Assets/img/img_lights.jpg").default} alt="Cinque Terre" width="600" height="400" />
                     </a>
                     <div className="desc">
-                        <h3>Project #</h3>
+                        <h3>BlackJack</h3>
                         <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
@@ -31,7 +31,7 @@ export const Work = () => {
                         <img src={require("../../../Assets/img/img_mountains.jpg").default} alt="Forest" width="600" height="400" />
                     </a>
                     <div className="desc">
-                        <h3>Project #</h3>
+                        <h3>OddsFinder</h3>
                         <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
@@ -43,7 +43,7 @@ export const Work = () => {
                         <img src={require("../../../Assets/img/img_nature.jpg").default} alt="Northern Lights" width="600" height="400" />
                     </a>
                 <div className="desc">
-                    <h3>Project #</h3>
+                    <h3>Retro Arcade</h3>
                     <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                         <i className="fab fa-github"></i> Github
                     </a>
@@ -55,7 +55,7 @@ export const Work = () => {
                         <img src={require("../../../Assets/img/img_snow.jpg").default} alt="Mountains" width="600" height="400" />
                     </a>
                     <div className="desc">
-                        <h3>Project #</h3>
+                        <h3>Tipping Comp</h3>
                         <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
@@ -67,7 +67,7 @@ export const Work = () => {
                         <img src={require("../../../Assets/img/img_snow.jpg").default} alt="Mountains" width="600" height="400" />
                     </a>
                     <div className="desc">
-                        <h3>Project #</h3>
+                        <h3>Weather App</h3>
                         <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
