@@ -56,7 +56,7 @@ export const Work = () => {
                     </a>
                     <div className="desc">
                         <h3>Tipping Comp</h3>
-                        <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
+                        <a href="gazjosef.github.io/tipping-app/" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
                     </div>
@@ -68,7 +68,7 @@ export const Work = () => {
                     </a>
                     <div className="desc">
                         <h3>Weather App</h3>
-                        <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
+                        <a href="gazjosef.github.io/weather-app/" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
                     </div>
