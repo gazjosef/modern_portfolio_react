@@ -20,7 +20,7 @@ export const Work = () => {
                     </a>
                     <div className="desc">
                         <h3>BlackJack</h3>
-                        <a href="https://github.com/gazjosef/blackjack-game" className="btn-dark">
+                        <a href="https://gazjosef.github.io/blackjack-game/" className="btn-dark">
                             <i className="fab fa-github"></i> Github
                         </a>
                     </div>
