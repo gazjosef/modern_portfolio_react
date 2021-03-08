@@ -1,8 +1,6 @@
 import React from 'react';
 // import image1 from "../../../Assets/img/projects/blackJack"
 
-// import { Gallery } from "../../Layout/Gallery/Gallery"
-
 export const Work = () => {
     return (
         <section className="section-work">

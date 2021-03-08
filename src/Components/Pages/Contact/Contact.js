@@ -15,7 +15,7 @@ export const Contact = () => {
 
                     </figure>
                     <div className="story__text">
-                        <h3 className="heading-tertiary u-margin-bottom-small">Email</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Email: </h3>
                         <h3 className="heading-tertiary u-margin-bottom-small">LinkedIn</h3>
                         <h3 className="heading-tertiary u-margin-bottom-small">GitHub</h3>
                     </div>
